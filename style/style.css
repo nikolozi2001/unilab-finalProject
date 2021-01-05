@@ -160,6 +160,17 @@ span {
 	color: gray;
 	background: darkred;
 }
+
+.q {
+	height: 25px;
+	width: 159px;
+	font-size: large;
+	font-weight: bold;
+	text-align: center;
+	color: gray;
+	background: darkred;
+}
+
 .small-title{
 	font-size: 18px;
 	font-family: 'Lato', sans-serif;
@@ -210,6 +221,28 @@ span {
   color: #000;		
   }
 /* end snowflakes */
+
+.city {
+	width: 350px;
+	height: 350px;
+	background-image: url('../photos/Burj-al-arab.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-left: 50px;
+}
+.cityName {
+	font-size: 22px;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	font-weight: bold;
+}
+.united {
+	font-size: 14px;
+	color: #B1B1B1;
+	font-family: 'Poppins', sans-serif;
+}
+
 
 /* site footer */
 .footer-wrap {
