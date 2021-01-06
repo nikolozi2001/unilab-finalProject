@@ -285,9 +285,7 @@
 	font-size: 22px;
 	margin: 20px;
 }
-.tt {
-	font-family: 'CaveatR';
-}
+
 .exploring2 {
 	height: 20px;
 	width: 135px;
@@ -301,6 +299,76 @@
 	font-family: 'Caveat';
 	margin-top: -10px;
 	letter-spacing: 5px;
+}
+
+.bruge {
+	width: 450px;
+	height: 300px;
+	background-image: url('../photos/bruges.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.brugesText, .dohasText, .bilbaosText, .palmasText {
+	width: 450px;
+}
+.bruges, .dohas, .bilbaos, .palmas {
+	font-size: 27px;
+    color: #383479
+}.bruges:hover, .dohas:hover, .bilbaos:hover, .palmas:hover {
+	opacity: 0.6;
+}
+.doha {
+	width: 450px;
+	height: 300px;
+	background-image: url('../photos/doha.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.bilbao {
+	width: 450px;
+	height: 300px;
+	background-image: url('../photos/bilbao.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.palma-de-mallorca {
+	width: 450px;
+	height: 300px;
+	background-image: url('../photos/palma\ de\ mallorca.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.cityS {
+	margin: 50px;
+	background: #e6e1e1;
+	border-bottom: 2px solid #e6e1e1;
+	border-radius: 15px;
+}
+
+.icon-sprites {
+	width: 40px;
+	height: 59px;
+	background-image: url(../photos/sprites.png);
+	background-position: -5px -240px;
+	background-repeat: no-repeat;
+	align-items: center;
+}
+.icon-title {
+	font-size: 45px;
+	color: #5d5d5d;
+	margin-left: 15px;
+}
+.more {
+	width: 100px;
+	float: right;
+	text-align: center;
+	border-radius: 12px;
+	background: darkgray;
+	font-size: 20px;
 }
 
 /* site footer */
