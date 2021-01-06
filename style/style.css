@@ -148,7 +148,7 @@
 	height: 350px;
 }
 .LNimg2 {
-	height: 210px;
+	height: 203px;
 }
 .e {
 	height: 25px;
@@ -276,6 +276,7 @@
 }
 .tq {
 	text-align: center;
+	/* font-family: 'Dancing Script', sans-serif; */
 	font-family: 'Redressed';
 	font-size: 44px;
 }
@@ -288,7 +289,7 @@
 	font-family: 'CaveatR';
 }
 .exploring2 {
-	height: 25px;
+	height: 20px;
 	width: 135px;
 	font-size: large;
 	font-weight: bold;
@@ -297,6 +298,9 @@
 	color: gray;
 	background: darkred;
 	float: right;
+	font-family: 'Caveat';
+	margin-top: -10px;
+	letter-spacing: 5px;
 }
 
 /* site footer */
