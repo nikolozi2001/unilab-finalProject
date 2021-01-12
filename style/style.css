@@ -413,6 +413,45 @@
 	background: darkgray;
 	font-size: 20px;
 }
+/* contact us */
+
+.contact-inforamtion {
+    margin-top: 21.2px;
+    background: #E6E6E6;
+}
+
+.contact {
+    width: 251px;
+    height: 93px;
+    vertical-align: top;
+	margin-left: 87.3px;
+	/* padding-top: 10px; */
+}
+
+.adress {
+    font-family: 'BPG Ingiri Arial';
+    font-size: 16px;
+    padding-top: 5px;
+}
+.contact-color{
+    color: #808080;
+    font-family: 'BPG Ingiri Arial';
+    font-size: 16px;
+}
+.info2 {
+    font-size: 20px;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    font-weight: bold;
+    color: #3D58A6;
+}
+
+.maps {
+	padding: 52px 0 52px 90px;
+}
+
+.contact, .maps {
+    display: inline-block;
+}
 
 /* site footer */
 
