@@ -413,6 +413,8 @@
 	background: darkgray;
 	font-size: 20px;
 }
+/* cars slider */
+.mySlides {display:none;}
 /* contact us */
 
 .contactusimg {
