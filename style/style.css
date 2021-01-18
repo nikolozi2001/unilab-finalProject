@@ -635,3 +635,64 @@
     font-weight:600
   }
 }
+
+/* starts main media css */
+
+@media (max-width: 375px) {
+	
+	.box, .last-section, .CityGuide, .title-icon, .w3-container, .contact-inforamtion, .site-footer {
+		max-width: 375px;
+		margin: 0;
+	}
+	.headerLogo {
+		width: 50px;
+		height: 50px;
+	}
+	.box-title {
+		font-size: 30px;
+	}
+	.common-block {
+		display: none;
+	}
+	.second-title {
+		max-width: 375px;
+		font-size: 30px;
+	}
+	.third-block {
+		max-width: 375px;
+		margin: 0;
+	}
+	.white-block {
+		max-width: 375px;
+		height: auto;
+		flex-direction: row;
+	}
+	.CityGuide {
+		max-width: 375px;
+		height: auto;
+		flex-direction: row;
+	}
+	.responsive {
+		max-width: 375px;
+		flex-direction: row;
+	}
+	.first-block{
+		max-width: 375px;
+		margin-left: -50px;
+	}
+	.second-block{
+		max-width: 375px;
+		margin-left: -90px;
+	}
+	.text-but {
+		max-width: 375px;
+		margin-left: -98px;
+	}
+	.responsiveMaps {
+		max-width: 375px;
+		margin-left: -90px;
+	}
+	.site-footer {
+		max-width: 375px;
+	}
+}
