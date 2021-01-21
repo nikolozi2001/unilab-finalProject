@@ -874,4 +874,7 @@
 		/* border-top: none; */
 		width: 350px;
 	}
+	.container {
+		width: 350px;
+	}
 }
