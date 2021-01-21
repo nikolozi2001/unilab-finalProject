@@ -821,11 +821,16 @@
 	}
 	.text-but {
 		max-width: 375px;
-		/* margin-left: -98px; */
+		margin-top: 90px;
+		/* margin-left: -20px; */
 	}
 	.responsiveMaps {
 		max-width: 375px;
 		margin-left: -90px;
+	}
+	.city, .city2, .city3 {
+		margin-left: 15px;
+		margin-bottom: 15px;
 	}
 	.site-footer {
 		max-width: 375px;
@@ -838,5 +843,35 @@
 	}
 	.cityGuide {
 		margin-left: -50px;
+	}
+	.icon-sprites{
+		float: right;
+		margin-right: 15px;
+	}
+	.icon-title {
+		font-size: 35px;
+		display: inline;
+	}
+	.bruge, .doha, .bilbao, .palma-de-mallorca {
+		width: 350px;
+		height: 300px;
+		margin-left: -35px;
+	}
+	.brugesText, .dohasText, .bilbaosText, .palmasText {
+		width: 350px;
+		margin-left: -30px;
+	}
+	.cityS{
+		background: none;
+	}
+	.blocks .text-but {
+		margin-left: -98px;
+	}
+	.text-justify, .copyright-text, .social-icons{
+		width: 350px;
+	}
+	.site-footer hr {
+		/* border-top: none; */
+		width: 350px;
 	}
 }
