@@ -18,14 +18,14 @@
 	padding: 50px;
 }
 .title{
-    font-family: 'Dancing Script', sans-serif;
+    font-family: 'Dancing Script';
     font-weight: bold;
 	font-size: 28px;
 	padding-left: -100px;
 }
 .nav-ul{
-    display: flex;
-    font-family: 'Poppins', sans-serif;
+	display: flex;
+    font-family: 'Poppins';
     text-transform: uppercase;
     font-size: 12px;
 }
@@ -33,7 +33,7 @@
     margin-right: 28px; 
     font-size: 12px;
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     letter-spacing: 2px;
 }
 
@@ -161,13 +161,28 @@
   transform: none;
 }
 
+.header-Logo-Wrapper {
+	height: 100px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.headerLogo{
+	height: 100%;
+}
+
+
+
 #menuToggle {
 	display: none;
 }
 
 .nav-a{
 	color: #D9F0FF;
-	padding-right: 380px;  /* I don't like, I should change it */
+	font-family: 'Dancing Script';    
+	font-size: 30px;
+    padding-left: 20px;
 }
 .nav-b {
     font-family: 'Poppins';
@@ -253,11 +268,11 @@
 	padding: 15px;
 }
 .third-block{
+	width: 770px;
 	font-size: 16px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 80px;
     margin-top: 15px;
-    width: 770px;
     text-align: center;
     line-height: 27px;
     margin-left: 248px;
@@ -446,6 +461,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	/* position: fixed; aqrobs fotos*/
 	border: 5px solid darkred;
 	padding: 10px;
 }
@@ -785,6 +801,7 @@
 	}
 	.box-title {
 		font-size: 30px;
+		text-align: center;
 	}
 	.common-block {
 		display: none;

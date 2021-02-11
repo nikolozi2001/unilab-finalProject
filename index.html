@@ -8,7 +8,7 @@
 		<!-- for test -->
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Lobster&family=Redressed&display=swap" rel="stylesheet">
+		<!-- <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Lobster&family=Redressed&display=swap" rel="stylesheet"> -->
 		<!--end fonts-->
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -31,8 +31,10 @@
     <body>
         <section class="box">
 			<header class="header-box">
-				<img class="headerLogo" src="photos/projectL.svg" alt="logo">
-				<p class="title"><a class="nav-a" href="#">About Travel</a></p>
+				<a class="header-Logo-Wrapper" href="">
+					<img class="headerLogo" src="photos/projectL.svg" alt="logo">
+					<span class="nav-a" href="#">About Travel</span>
+				</a>
 				<nav>
 					<ul class="nav-ul">
 						<li class="nav-li"><a class="nav-b" href="#section1">Home</a></li>
@@ -241,7 +243,6 @@
 		</section>
 		<!-- music player -->
 		<section class="music">
-			<script src="https://apps.elfsight.com/p/platform.js" defer></script>
 			<div class="elfsight-app-57a5c8b3-a7d8-475e-abaa-a2274c75d3e7"></div>
 		</section>
 		<!-- cars slider -->
@@ -351,26 +352,7 @@
 		  
 		  </div>
 
-		  <!-- slider js script -->
-		  <script>
-			var slideIndex = 1;
-			showDivs(slideIndex);
-			
-			function plusDivs(n) {
-			  showDivs(slideIndex += n);
-			}
-			
-			function showDivs(n) {
-			  var i;
-			  var x = document.getElementsByClassName("mySlides");
-			  if (n > x.length) {slideIndex = 1}
-			  if (n < 1) {slideIndex = x.length}
-			  for (i = 0; i < x.length; i++) {
-				 x[i].style.display = "none";  
-			  }
-			  x[slideIndex-1].style.display = "block";  
-			}
-			</script>
+		 
 		<!--contact us-->
 		<section class="contact-inforamtion" id="section5">
 			<h2 class="second-title"> <img src="photos/contact.svg" class="contactusimg" alt="contact"> Contact US</h2>
@@ -439,5 +421,28 @@
 			  </div>
 			</div>
 	  </footer>
+	  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+
+	   <!-- slider js script -->
+	   
+	   <script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+		
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+		
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  if (n > x.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+			 x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
+		</script>
     </body>
 </html>
