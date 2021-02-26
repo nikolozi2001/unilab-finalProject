@@ -92,13 +92,14 @@
 	background: #9F9F9F;
 	content: "";
 	height: 70%;
-	width: 70%;
+	width: 100%;
+	border-radius: 5%;
 	left: 0;
 	opacity: 0;
 	overflow: auto;
 	padding: 0;
 	position: absolute;
-	top: 0;
+	top: 70px;
 	transition: all 0.4s ease;
   }
   body.open {
@@ -120,8 +121,8 @@
 	color: #444444;
 	list-style-type: none;
 	padding: 10px;
-	text-align: left;
-	transform: translateX(-250px);
+	text-align: center;
+	transform: translateX(250px);
   }
   .b-nav li:not(.open) {
 	-webkit-animation-duration: 0.4s;
@@ -132,7 +133,7 @@
 			animation-name: slideOutRight;
   }
   .b-nav li:first-child {
-	padding-top: 120px;
+	padding-top: 170px;
   }
   .b-nav.open {
 	visibility: visible;
@@ -231,10 +232,10 @@
 	background: white;
   }
   .b-container.open .b-main {
-	border: #444444 solid 2px;
+	border: white solid 2px;
   }
   .b-container.open .b-bun--top {
-	background: #444444;
+	background: white;
 	top: 9px;
 	transform: rotate(45deg);
   }
@@ -242,12 +243,12 @@
 	opacity: 0;
   }
   .b-container.open .b-bun--bottom {
-	background: #444444;
+	background: white;
 	top: 5px;
 	transform: rotate(-45deg);
   }
   .b-container.open .b-brand {
-	color: #444444;
+	color: white;
   }
 
   .b-nav, .b-container {
