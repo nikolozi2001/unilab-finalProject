@@ -1035,7 +1035,7 @@
 		width: 100%;
 	}
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 	.third-block{
 		width: 100%;
 		margin-left: 0;
@@ -1071,7 +1071,7 @@
 		width: 700px !important;
 	}
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
 	.third-block{
 		width: 100%;
 		margin-left: 0;
@@ -1115,5 +1115,19 @@
 	}
 	.responsiveMaps{
 		width: 700px !important;
+	}
+	.site-footer
+	{
+		padding-bottom:0
+	}
+	.site-footer .copyright-text,.site-footer .social-icons
+	{
+		text-align:center
+	}
+	.social-icons li.title
+	{
+		display:block;
+		margin-right:0;
+		font-weight:600
 	}
 }
