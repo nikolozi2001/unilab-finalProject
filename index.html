@@ -21,7 +21,6 @@
         <link rel="stylesheet" href="style/reset.css">
         <link rel="stylesheet" href="style/fonts.css">
 		<link rel="stylesheet" href="style/style.css">
-		<link rel="stylesheet" href="js/myScript.js">
 		<link rel="shortcut icon" href="photos/projectL.svg" type="image/png">
         <title>FinalProject</title>
     </head>
@@ -44,22 +43,20 @@
 				<!-- starts burger icon for smartphone -->
 				<!-- Navigation -->
 				<div class="b-nav">
-					<li><a class="b-link" href="https://github.com/mblode/burger" target="_blank">GitHub - burger</a></li>
-					<li><a class="b-link" href="https://github.com/mblode" target="_blank">Github - mblode</a></li>
-					<li><a class="b-link" href="https://codepen.io/mblode/" target="_blank">CodePen</a></li>
-					<li><a class="b-link" href="https://dribbble.com/mblode" target="_blank">Dribbble</a></li>
+					<li><a class="b-link" href="#section1">Home</a></li>
+					<li><a class="b-link" href="#section2">Latest News</a></li>
+					<li><a class="b-link" href="#section3">City Guide</a></li>
+					<li><a class="b-link" href="#section4">Our Story</a></li>
+					<li><a class="b-link" href="#section5">Contact US</a></li>
 				</div>
 				
 				<!-- Burger-Icon -->
 				<div class="b-container">
 					<div class="b-menu">
-					<div class="b-bun b-bun--top"></div>
-					<div class="b-bun b-bun--mid"></div>
-					<div class="b-bun b-bun--bottom"></div>
+						<div class="b-bun b-bun--top"></div>
+						<div class="b-bun b-bun--mid"></div>
+						<div class="b-bun b-bun--bottom"></div>
 					</div>
-				
-					<!-- Burger-Brand -->
-					<a href="#" class="b-brand">Burger</a>
 				</div>
 			</header>
 			<div class="box-title flex">
@@ -420,28 +417,7 @@
 			  </div>
 			</div>
 	  </footer>
+	  <script src="js/myScript.js" ></script>
 	  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-
-	   <!-- slider js script -->
-	   
-	   <script>
-		var slideIndex = 1;
-		showDivs(slideIndex);
-		
-		function plusDivs(n) {
-		  showDivs(slideIndex += n);
-		}
-		
-		function showDivs(n) {
-		  var i;
-		  var x = document.getElementsByClassName("mySlides");
-		  if (n > x.length) {slideIndex = 1}
-		  if (n < 1) {slideIndex = x.length}
-		  for (i = 0; i < x.length; i++) {
-			 x[i].style.display = "none";  
-		  }
-		  x[slideIndex-1].style.display = "block";  
-		}
-		</script>
     </body>
 </html>
