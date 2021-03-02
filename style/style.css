@@ -889,7 +889,7 @@
 
 /* starts main media css */
 
-@media (max-width: 375px) {
+@media only screen and (max-width: 375px) {
 	
 	.box, .last-section, .CityGuide, .title-icon, .w3-container, .contact-inforamtion, .site-footer {
 		max-width: 375px;
@@ -1035,7 +1035,7 @@
 		width: 100%;
 	}
 }
-@media (min-width: 768px) {
+@media only screen and (max-width: 768px) {
 	.third-block{
 		width: 100%;
 		margin-left: 0;
@@ -1071,7 +1071,7 @@
 		width: 700px !important;
 	}
 }
-@media (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 	.third-block{
 		width: 100%;
 		margin-left: 0;
