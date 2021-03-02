@@ -25,10 +25,10 @@
 }
 .nav-ul{
 	display: flex;
+	white-space: nowrap;
 }
 .nav-li{
     margin-right: 28px; 
-    letter-spacing: 2px;
 }
 .nav-a{
 	color: #D9F0FF;
@@ -39,11 +39,13 @@
 .nav-b {
     font-family: 'Poppins';
     font-size: 12px;
+	display: inline-block;
+	letter-spacing: 2px;
 	text-transform: uppercase;
     color: #D9F0FF;
 }
-.nav-b :hover {
-	color: darkred;  /* doesn't working */
+.nav-b:hover {
+	color: darkred;  /*doesn't working */
 	border-bottom: darkred;
 }
 
