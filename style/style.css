@@ -959,7 +959,7 @@
 		letter-spacing: 1px;
 	}
 	.responsiveMaps {
-		max-width: 100%;
+		max-width: 100% !important;
 	}
 	.city, .city2, .city3 {
 		width: 100%;
@@ -1047,6 +1047,9 @@
 	}
 	.blocks{
 		padding: 10px;
+	}
+	.common-block{
+		justify-content: center;
 	}
 	.second-block{
 		width: 370px;
