@@ -412,7 +412,6 @@
 	font-size: 16px;
 	font-family: 'Poppins', sans-serif;
     width: 250px;
-    hyphens: 106px;
     line-height: 20px;
     color: darkblue;
     margin-left: 40px;
@@ -793,24 +792,7 @@
 {
   margin:0
 }
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px
-  }
-}
-@media (max-width:767px)
-{
-  .site-footer
-  {
-    padding-bottom:0
-  }
-  .site-footer .copyright-text,.site-footer .social-icons
-  {
-    text-align:center
-  }
-}
+
 .social-icons
 {
   padding-left:0;
@@ -879,203 +861,9 @@
 {
   background-color:#ea4c89
 }
-@media (max-width:767px)
-{
-  .social-icons li.title
-  {
-    display:block;
-    margin-right:0;
-    font-weight:600
-  }
-}
+
 
 /* starts main media css */
-
-@media only screen and (max-width: 375px) {
-	
-	.box, .last-section, .CityGuide, .title-icon, .w3-container, .contact-inforamtion, .site-footer {
-		max-width: 375px;
-		margin: 0;
-	}
-	.headerLogo {
-		width: 50px;
-		height: 50px;
-	}
-	.nav-ul {
-		display: none;
-	}
-	.b-container, .b-nav {
-		display: block;
-	}
-	.box-title {
-		font-size: 30px;
-		text-align: center;
-	}
-	.common-block {
-		max-width: 100%;
-		margin: 50px;
-	}
-	.latest-block{
-		margin-bottom: 10px;
-		border: none;
-		display: none;
-	}
-	
-	.latest-block:nth-child(4), .latest-block:nth-child(5), .latest-block:nth-child(6){
-		margin: 0 0 10px -39px;
-	}
-	.second-title {
-		max-width: 375px;
-		font-size: 30px;
-	}
-	.third-block {
-		width: 100%;
-		margin-left: 0;
-	}
-	.white-block {
-		max-width: 375px;
-		height: auto;
-		flex-direction: row;
-	}
-	.CityGuide {
-		max-width: 375px;
-		height: auto;
-		flex-direction: row;
-	}
-	.responsive {
-		max-width: 375px;
-		flex-direction: row;
-	}
-	.first-block{
-		margin-left: -38px;
-	}
-	.second-block{
-		max-width: 100%;
-		height: auto;
-	}
-	.text-but {
-		max-width: 375px;
-		margin-top: 90px;
-		letter-spacing: 1px;
-	}
-	.responsiveMaps {
-		max-width: 100% !important;
-	}
-	.city, .city2, .city3 {
-		width: 100%;
-		margin-bottom: 15px;
-		margin-left: 0;
-	}
-	.cityName .cityNameText{
-		width: 250px;
-	}
-	.site-footer {
-		max-width: 375px;
-	}
-	.flex {
-		display: inline;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center; 
-	}
-	.cityGuide {
-		margin-left: -50px;
-	}
-	.icon-sprites{
-		float: right;
-		margin-right: 15px;
-	}
-	.icon-title {
-		font-size: 35px;
-		display: inline;
-	}
-	.bruge, .doha, .bilbao, .palma-de-mallorca {
-		width: 100%;
-	}
-	.brugesText, .dohasText, .bilbaosText, .palmasText {
-		width: 100%;
-	}
-	.cityS{
-		background: none;
-	}
-	.text-but2 {
-		width: 370px;
-		height: 72px;
-		font-size: 14px;
-		margin-left: -95px;
-		padding: 30px 40px;
-		font-family: 'Lato', sans-serif;
-		text-transform: uppercase;
-		letter-spacing: 5px;
-		border-radius: 36px;
-		border: none;	
-		background-color: #061035;
-		color: #fff;
-		font-weight: bold;
-	}
-	.image-box{
-		width: 100%;
-		height: 500px;
-	}
-	.white-box{
-		flex-wrap: wrap;
-	}
-	.blocks{
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		text-align: center;
-		margin: 0 0 50px;
-	}
-	.text-justify, .copyright-text, .social-icons{
-		width: 100%;
-	}
-	.site-footer hr {
-		width: 100%;
-	}
-	.container {
-		width: 100%;
-	}
-}
-@media only screen and (max-width: 768px) {
-	.third-block{
-		width: 100%;
-		margin-left: 0;
-	}
-	.text-but2 {
-		width: 370px;
-	}
-	.blocks{
-		padding: 10px;
-	}
-	.common-block{
-		justify-content: center;
-	}
-	.second-block{
-		width: 370px;
-	}
-	.city{
-		margin: 0 0 15px 50px;
-	}
-	.city2{
-		margin-bottom: 15px;
-	}
-	.latest-block{
-		margin-top: 30px;
-	}
-	.nav-ul {
-		display: none;
-	}
-	.b-container, .b-nav {
-		display: block;
-	}
-	.maps{
-		padding: 32px;
-	}
-	.responsiveMaps{
-		width: 700px !important;
-	}
-}
 @media only screen and (max-width: 1024px) {
 	.third-block{
 		width: 100%;
@@ -1116,14 +904,12 @@
 		flex-direction: unset;
 	}
 	.maps{
-		padding: 32px;
-	}
-	.responsiveMaps{
-		width: 700px !important;
+		padding: 74px;
 	}
 	.site-footer
 	{
-		padding-bottom:0
+		padding-bottom: 0;
+		margin-bottom: 38vh;
 	}
 	.site-footer .copyright-text,.site-footer .social-icons
 	{
@@ -1134,5 +920,218 @@
 		display:block;
 		margin-right:0;
 		font-weight:600
+	}
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media only screen and (max-width: 768px) {
+	.third-block{
+		width: 100%;
+		margin-left: 0;
+	}
+	.text-but2 {
+		width: 370px;
+	}
+	.blocks{
+		padding: 10px;
+	}
+	.common-block{
+		justify-content: center;
+		padding: 0;
+	}
+	.second-block{
+		width: 370px;
+	}
+	.city{
+		margin: 0 0 15px 50px;
+	}
+	.city2{
+		margin-bottom: 15px;
+	}
+	.latest-block{
+		margin-top: 30px;
+	}
+	.nav-ul {
+		display: none;
+	}
+	.b-container, .b-nav {
+		display: block;
+	}
+	.maps{
+		padding: 32px;
+	}
+	.responsiveMaps{
+		width: 700px !important;
+	}
+	.site-footer{
+		margin-bottom: 17vh;
+	}
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+@media only screen and (max-width: 375px) {
+	
+	.box, .last-section, .CityGuide, .title-icon, .w3-container, .contact-inforamtion, .site-footer {
+		max-width: 100%;
+		margin: 0;
+	}
+	.headerLogo {
+		width: 50px;
+		height: 50px;
+	}
+	.nav-ul {
+		display: none;
+	}
+	.b-container, .b-nav {
+		display: block;
+	}
+	.box-title {
+		font-size: 30px;
+		text-align: center;
+	}
+	.common-block {
+		max-width: 100%;
+		margin: 50px;
+	}
+	.latest-block{
+		border: none;
+		display: none;
+		box-shadow: none;
+		text-align: -webkit-center;
+	}
+
+	.e, .q{
+		display: flex;
+		place-content: center;
+	}
+	.small-title{
+		text-align-last: center;
+	}
+	.second-title {
+		max-width: 100%;
+		font-size: 30px;
+	}
+	.third-block {
+		width: 100%;
+		margin-left: 0;
+	}
+	.white-block {
+		max-width: 100%;
+		height: auto;
+		flex-direction: row;
+	}
+	.CityGuide {
+		max-width: 100%;
+		height: auto;
+		flex-direction: row;
+	}
+	.responsive {
+		max-width: 100%;
+		flex-direction: row;
+	}
+	
+	.second-block{
+		max-width: 100%;
+		height: auto;
+	}
+	.text-but {
+		max-width: 100%;
+		margin-top: 90px;
+		letter-spacing: 1px;
+	}
+	.responsiveMaps {
+		max-width: 100% !important;
+	}
+	.city, .city2, .city3 {
+		width: 100%;
+		margin-bottom: 15px;
+		margin-left: 0;
+	}
+	.cityName .cityNameText{
+		width: 250px;
+	}
+	.site-footer {
+		max-width: 100%;
+	}
+	.flex {
+		display: inline;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center; 
+	}
+	.icon-sprites{
+		float: right;
+		margin-right: 15px;
+	}
+	.icon-title {
+		font-size: 35px;
+		display: inline;
+	}
+	.bruge, .doha, .bilbao, .palma-de-mallorca {
+		width: 100%;
+	}
+	.brugesText, .dohasText, .bilbaosText, .palmasText {
+		width: 100%;
+	}
+	.cityS{
+		background: none;
+	}
+	.text-but2 {
+		width: 370px;
+		height: 72px;
+		align-self: center;
+		font-size: 14px;
+		padding: 30px 40px;
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		border-radius: 36px;
+		border: none;	
+		background-color: #061035;
+		color: #fff;
+		font-weight: bold;
+	}
+	.image-box{
+		width: 100%;
+		height: 500px;
+	}
+	.white-box{
+		flex-wrap: wrap;
+	}
+	.blocks{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		margin: 0 0 50px;
+	}
+	.text-justify, .copyright-text, .social-icons{
+		width: 100%;
+	}
+	.site-footer hr {
+		width: 100%;
+	}
+	.container {
+		width: 100%;
 	}
 }
