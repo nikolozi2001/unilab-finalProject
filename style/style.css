@@ -113,6 +113,7 @@
   }
   
   .b-nav {
+	display: none;
 	position: absolute;
 	z-index: 11;
   }
@@ -223,6 +224,7 @@
   }
   
   .b-container {
+	display: none;
 	height: 60px;
 	right: 30px;
 	position: absolute;
